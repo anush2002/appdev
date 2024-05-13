@@ -1,13 +1,118 @@
-body {
+/* styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #123271e5; 
+} */
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.form-container {
+  text-align: center; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 9);
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  background-color: white;
+} */
+
+/* .form-container h2 {
+  margin-bottom: 20px;
+  text-align: center; 
+;
+} */
+
+/* .form-container input {
+
+  background-color: transparent; 
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+} */
+
+/* Style placeholder text */
+/* .form-container input::placeholder {
+  color: white; 
+} */
+
+
+/* .form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+} */
+
+/* .modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close {
+  float: right;
+  cursor: pointer;
+} */
+
+.navbar{
+  background-color: darkcyan;
+}
+.hero-img{
+  height: 500px;
+  width: 100%;
+}
+.text{
+  color: black;
+}
+.footer{
+  background-color: darkcyan;
+}
+.adv{
+  background-color: darkcyan;
+  color: white;
+}
+.sidebar{
+  height: 100vh;
+}
+/* styles.css */
+.ck-editor__editable {
+  height: 400px; /* Adjust the height as needed */
+}
+.margin{
+  margin-top: -60px;
 }
