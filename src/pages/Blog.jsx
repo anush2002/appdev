@@ -245,14 +245,8 @@ const BlogPage = () => {
       console.error('Error fetching blog posts:', error);
     }
   };
-
-
-
   return (
     <>
-
-
-
       <div className="container mx-auto">
         <ToastContainer />
         <div className="flex justify-between items-center">
