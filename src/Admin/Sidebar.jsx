@@ -13,7 +13,7 @@ const Sidebar = () => {
       </div>
       <ul className="flex-1">
         <li className={`p-4 ${location.pathname === 'Dashboard' ? 'bg-gray-800' : ''}`}>
-          <Link to="/Dashboard" className="flex items-center">
+          <Link to="/Admin" className="flex items-center">
             <FiHome className="mr-2" />
             Dashboard
           </Link>
